@@ -1,0 +1,16 @@
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\Pr3_IGORA.exe.config
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\Pr3_IGORA.exe
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\Pr3_IGORA.pdb
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.csproj.AssemblyReference.cache
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\MainWindow.g.cs
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\App.g.cs
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA_MarkupCompile.cache
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA_MarkupCompile.lref
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\App.baml
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\MainWindow.baml
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.g.resources
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.Properties.Resources.resources
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.csproj.GenerateResource.cache
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.csproj.CoreCompileInputs.cache
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.exe
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.pdb
