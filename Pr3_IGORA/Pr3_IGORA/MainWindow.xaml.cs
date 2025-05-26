@@ -24,21 +24,14 @@ namespace Pr3_IGORA
         public MainWindow()
         {
             InitializeComponent();
-            //FrameApp.frmObj = MainFrame;
-            //FrameApp.frmObj.Navigate(new);
+            FrameApp.frmObj = MainFrame;
+            FrameApp.frmObj.Navigate(new Pages.LoginPage());
 
 
         }
 
-        private void test_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("AAAAAAAAAAAAAAAAA");
+  
 
-        }
 
-        private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            
-        }
     }
 }

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="igoraModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="IDClient" />
+    </Key>
+    <Property Name="Surname" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Patronymic" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_number" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="IDClient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Client" FromRole="Client" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="IDEmployee" />
+    </Key>
+    <Property Name="IDEmployee" Type="Int32" Nullable="false" />
+    <Property Name="IDPost" Type="Int32" />
+    <Property Name="Surname" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Patronymic" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Login" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="last_entry" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_Employee_Post" FromRole="Employee" ToRole="Post" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="IDOrder" />
+    </Key>
+    <Property Name="IDOrder" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateTime_Order" Type="DateTime" Precision="3" />
+    <Property Name="IDClient" Type="Int32" />
+    <Property Name="IDStatus" Type="Int32" />
+    <Property Name="Date_CloseOrder" Type="DateTime" Precision="3" />
+    <Property Name="Time_Rent" Type="Int32" />
+    <NavigationProperty Name="Client" Relationship="Self.FK_Orders_Client" FromRole="Orders" ToRole="Client" />
+    <NavigationProperty Name="Orders_Service" Relationship="Self.FK_Orders_Service_Orders" FromRole="Orders" ToRole="Orders_Service" />
+    <NavigationProperty Name="Status" Relationship="Self.FK_Orders_Status" FromRole="Orders" ToRole="Status" />
+  </EntityType>
+  <EntityType Name="Orders_Service">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDOrder" Type="Int32" />
+    <Property Name="IDService" Type="Int32" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Service_Orders" FromRole="Orders_Service" ToRole="Orders" />
+    <NavigationProperty Name="Service" Relationship="Self.FK_Orders_Service_Service" FromRole="Orders_Service" ToRole="Service" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Post1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Post" FromRole="Post" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name_Service" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IDService" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Cost_On_Hour" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Orders_Service" Relationship="Self.FK_Orders_Service_Service" FromRole="Service" ToRole="Orders_Service" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Status1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Status" FromRole="Status" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Orders_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="IDClient" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="IDClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="IDPost" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Service_Orders">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="0..1" />
+    <End Role="Orders_Service" Type="Self.Orders_Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="IDOrder" />
+      </Principal>
+      <Dependent Role="Orders_Service">
+        <PropertyRef Name="IDOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="IDStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Service_Service">
+    <End Role="Service" Type="Self.Service" Multiplicity="0..1" />
+    <End Role="Orders_Service" Type="Self.Orders_Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Orders_Service">
+        <PropertyRef Name="IDService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="igoraEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Client" EntityType="Self.Client" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="Orders_Service" EntityType="Self.Orders_Service" />
+    <EntitySet Name="Post" EntityType="Self.Post" />
+    <EntitySet Name="Service" EntityType="Self.Service" />
+    <EntitySet Name="Status" EntityType="Self.Status" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Orders_Client" Association="Self.FK_Orders_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Post" Association="Self.FK_Employee_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Service_Orders" Association="Self.FK_Orders_Service_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Orders_Service" EntitySet="Orders_Service" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Status" Association="Self.FK_Orders_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Service_Service" Association="Self.FK_Orders_Service_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="Orders_Service" EntitySet="Orders_Service" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -6,7 +6,7 @@
     <Application.Resources>
 
         <Style TargetType="Button" x:Key="GreenButton">
-            <Setter Property="Width" Value="150"/>
+            <Setter Property="Width" Value="200"/>
             <Setter Property="Height" Value="40"/>
             <Setter Property="Background" Value="#0f5945"/>
             <Setter Property="Foreground" Value="#c5e4de"/>
@@ -42,7 +42,7 @@
 
 
         <Style TargetType="Button" x:Key="RedButton">
-            <Setter Property="Width" Value="150"/>
+            <Setter Property="Width" Value="200"/>
             <Setter Property="Height" Value="40"/>
             <Setter Property="Background" Value="#C4584A"/>
             <Setter Property="Foreground" Value="#c5e4de"/>
@@ -135,7 +135,8 @@
                                      FontFamily="{TemplateBinding FontFamily}"
                                      FontSize="{TemplateBinding FontSize}"
                                      VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
-                                     Padding="{TemplateBinding Padding}"/>
+                                     Padding="{TemplateBinding Padding}"
+                                     PasswordChanged="PART_PasswordBox_PasswordChanged"/>
                             </Grid>
                         </Border>
                         <ControlTemplate.Triggers>

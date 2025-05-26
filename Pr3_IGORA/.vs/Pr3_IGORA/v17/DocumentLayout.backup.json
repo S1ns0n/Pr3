@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\pr3_igora\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\classes\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\classes\\usercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\classes\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\classes\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\pr3_igora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\valya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\pr3\\pr3_igora\\pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,29 +54,94 @@
               "RelativeToolTip": "Pr3_IGORA\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-26T03:42:27.448Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\App.xaml.cs",
+              "RelativeToolTip": "Pr3_IGORA\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:45:04.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Classes\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Classes\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Classes\\UserRepository.cs",
+              "RelativeToolTip": "Pr3_IGORA\\Classes\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:25:52.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserCredentials.cs",
+              "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Classes\\UserCredentials.cs",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Classes\\UserCredentials.cs",
+              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Classes\\UserCredentials.cs",
+              "RelativeToolTip": "Pr3_IGORA\\Classes\\UserCredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:21:53.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pages\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAzwCcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:09:59.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Pr3_IGORA\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T06:08:13.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Pr3_IGORA\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\MainWindow.xaml*",
-              "RelativeToolTip": "Pr3_IGORA\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\MainWindow.xaml",
+              "RelativeToolTip": "Pr3_IGORA\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-26T01:58:33.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Pr3_IGORA\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Valya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\repositories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\MainWindow.xaml.cs",
               "RelativeToolTip": "Pr3_IGORA\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T01:58:32.946Z",
               "EditorCaption": ""

@@ -14,3 +14,12 @@ C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.csproj.CoreCompileInputs.cache
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.exe
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.pdb
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\EntityFramework.dll
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\EntityFramework.xml
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA_Content.g.cs
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.csproj.Up2Date
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\LoginPage.baml

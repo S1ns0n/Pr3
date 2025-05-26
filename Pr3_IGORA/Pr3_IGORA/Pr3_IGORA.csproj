@@ -72,7 +72,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\ConnectBase.cs" />
     <Compile Include="Classes\FrameApp.cs" />
+    <Compile Include="Classes\UserCredentials.cs" />
+    <Compile Include="Classes\UserInfo.cs" />
+    <Compile Include="Classes\UserRepository.cs" />
     <Compile Include="Database\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -116,8 +120,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -151,9 +162,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Images\mountains.jpg" />
   </ItemGroup>

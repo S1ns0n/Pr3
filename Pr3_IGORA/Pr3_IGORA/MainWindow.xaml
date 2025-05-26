@@ -9,80 +9,11 @@
         MinHeight="500" MinWidth="500"
         WindowStartupLocation="CenterScreen">
     <Grid>
-
-        <Image Source="/mountains.jpg"
-               Stretch="Fill"/>
-
-
-
-
-
-        <Border CornerRadius="20"
-                Background="#95343a40" 
-                Width="300"
-                Height="350"
-                Name="Border">
-            <Grid
-                VerticalAlignment="Center"
-                HorizontalAlignment="Center"
-                Height="300"
-                Margin="0,20,0,0">
-
-                <StackPanel 
-     VerticalAlignment="Top"
-     Margin="0,0,0,0">
-
-     <TextBlock
-         Text="Лого тут"
-         FontSize="24"
-         Height="40"/>
- </StackPanel>
-                
-                
-                
-                
-                
-
-                <StackPanel HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            Margin="0,0,0,0">
-
-                    <TextBlock
-                        Text="Логин:"
-                        Margin="0,0,0,2"/>
-                    <TextBox Margin="0,0,0,5"/>
-
-
-                    <TextBlock
-                        Text="Пароль:"
-                        Margin="0,0,0,2"/>
-                    <PasswordBox Margin="0,0,0,20"/>
-
-                    <Button Style="{StaticResource GreenButton}"
-                            Content="Войти"
-                            Name="test"
-                            Click="test_Click"/>
-
-
-
-                 
-                </StackPanel>
-
-               
-
-
-
-            </Grid>
-        </Border>
-
-
-
-
-
-
-
-
-
-
+        <Frame Name="MainFrame"
+               NavigationUIVisibility="Hidden"
+               >
+            
+        </Frame>
+        
     </Grid>
 </Window>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище igoraModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="IDClient" />
+    </Key>
+    <Property Name="Surname" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Patronymic" Type="nvarchar" MaxLength="255" />
+    <Property Name="Phone_number" Type="nchar" MaxLength="20" />
+    <Property Name="IDClient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="IDEmployee" />
+    </Key>
+    <Property Name="IDEmployee" Type="int" Nullable="false" />
+    <Property Name="IDPost" Type="int" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Patronymic" Type="nvarchar" MaxLength="255" />
+    <Property Name="Login" Type="nvarchar" MaxLength="255" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" />
+    <Property Name="last_entry" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="IDOrder" />
+    </Key>
+    <Property Name="IDOrder" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateTime_Order" Type="datetime" />
+    <Property Name="IDClient" Type="int" />
+    <Property Name="IDStatus" Type="int" />
+    <Property Name="Date_CloseOrder" Type="datetime" />
+    <Property Name="Time_Rent" Type="int" />
+  </EntityType>
+  <EntityType Name="Orders_Service">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDOrder" Type="int" />
+    <Property Name="IDService" Type="int" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Post" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Name_Service" Type="nvarchar" MaxLength="255" />
+    <Property Name="IDService" Type="nvarchar" MaxLength="255" />
+    <Property Name="Cost_On_Hour" Type="money" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Employee_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="IDPost" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="IDClient" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="IDClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Service_Orders">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="0..1" />
+    <End Role="Orders_Service" Type="Self.Orders_Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="IDOrder" />
+      </Principal>
+      <Dependent Role="Orders_Service">
+        <PropertyRef Name="IDOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Service_Service">
+    <End Role="Service" Type="Self.Service" Multiplicity="0..1" />
+    <End Role="Orders_Service" Type="Self.Orders_Service" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Orders_Service">
+        <PropertyRef Name="IDService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="IDStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище igoraModelContainer">
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders_Service" EntityType="Self.Orders_Service" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Post" EntityType="Self.Post" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Service" EntityType="Self.Service" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Employee_Post" Association="Self.FK_Employee_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Client" Association="Self.FK_Orders_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Service_Orders" Association="Self.FK_Orders_Service_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Orders_Service" EntitySet="Orders_Service" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Service_Service" Association="Self.FK_Orders_Service_Service">
+      <End Role="Service" EntitySet="Service" />
+      <End Role="Orders_Service" EntitySet="Orders_Service" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Status" Association="Self.FK_Orders_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
