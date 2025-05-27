@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pr3_IGORA"
         mc:Ignorable="d"
-        Title="Игора" Height="550" Width="800"
+        Title="Игора" Height="550" Width="900"
         MinHeight="500" MinWidth="500"
         WindowStartupLocation="CenterScreen">
     <Grid>
+
+        <Image Source="/mountains.jpg"
+            Stretch="Fill"/>
+
         <Frame Name="MainFrame"
                NavigationUIVisibility="Hidden"
                >

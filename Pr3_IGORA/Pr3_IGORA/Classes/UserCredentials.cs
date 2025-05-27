@@ -10,6 +10,7 @@ namespace Pr3_IGORA.Classes
    {
         public string Login { get; set; }
         public string Password { get; set; }
+        public int? IDPost {  get; set; }
     }
 
 }

@@ -26,7 +26,7 @@ namespace Pr3_IGORA.Pages
         public LoginPage()
         {
             InitializeComponent();
-
+            TxbLogin.Focus();
             
 
         }
@@ -36,6 +36,12 @@ namespace Pr3_IGORA.Pages
 
             try
             {
+                if (string.IsNullOrEmpty(TxbPassword.Password) || string.IsNullOrEmpty(TxbLogin.Text))
+                {
+                    MessageBox.Show("Пожалуйста заполните все поля!");
+                    return;
+                }
+                    
 
                 Trace.WriteLine($"My Login: {TxbLogin.Text}, My Password: {TxbPassword.Password}");
 
@@ -44,22 +50,62 @@ namespace Pr3_IGORA.Pages
                     Trace.WriteLine($"Login: {user.Login}, Password: {user.Password}");
                     if((user.Login == TxbLogin.Text) && (user.Password == TxbPassword.Password))
                     {
-                        MessageBox.Show("УРА");
+                        switch (user.IDPost)
+                        {
+                            case 1:
+                                
+                                break;
+
+                            case 2:
+                                FrameApp.frmObj.Navigate(new AdminPage());
+                                break;
+
+                            case 3:
+                                break;
+                        }
                         return;
-                    }
-
-
+                    }    
                 }
 
-                MessageBox.Show("фывфывф");
+                Trace.WriteLine("Переходим в глубокую стадию");
+                var userObj = ConnectBase.entObj.Employee.FirstOrDefault(x => x.Login == TxbLogin.Text && x.Password == TxbPassword.Password);
+
+                if (userObj == null)
+                {
+                    MessageBox.Show("Такой пользователь отсутствует! Если у вас есть аккаунт внимательней просмотрите данные правильно ли вы ввели их, если у вас нет аккаунта пожалуйста зарегистрируйтесь!",
+                        "Уведомление",
+                        MessageBoxButton.OK,
+                        MessageBoxImage.Information);
+                    return;
+                }
+                else
+                {
+                    switch (userObj.IDPost)
+                    {
+                        case 1:
+
+                            break;
+
+                        case 2:
+                            FrameApp.frmObj.Navigate(new AdminPage());
+                            break;
+
+                        case 3:
+                            break;
+                    }
+                    return;
+                }
 
 
             }
             catch
             {
-                MessageBox.Show("(((((");
+                MessageBox.Show("Ошибка!Проверьте правильность ввода данных!");
+                TxbPassword.Clear();
             }
 
         }
+
+       
     }
 }

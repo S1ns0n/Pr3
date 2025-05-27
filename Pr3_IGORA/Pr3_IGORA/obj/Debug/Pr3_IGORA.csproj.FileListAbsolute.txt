@@ -23,3 +23,5 @@ C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA.csproj.Up2Date
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\LoginPage.g.cs
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\LoginPage.baml
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\AdminPage.baml

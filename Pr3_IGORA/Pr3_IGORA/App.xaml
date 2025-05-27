@@ -10,6 +10,7 @@
             <Setter Property="Height" Value="40"/>
             <Setter Property="Background" Value="#0f5945"/>
             <Setter Property="Foreground" Value="#c5e4de"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="FontFamily" Value="Comic Sans MS"/>
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Template">
@@ -63,15 +64,6 @@
 
 
 
-
-        <Style TargetType="TextBlock">
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="Height" Value="20"/>
-            <Setter Property="FontFamily" Value="Comic Sans MS"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="Padding" Value="0,0,0,0"/>
-        </Style>
 
 
         <Style TargetType="TextBox">
@@ -242,6 +234,46 @@
         </Setter.Value>
     </Setter>
 </Style>
+
+
+
+
+        <Style TargetType="DataGrid">
+            <Setter Property="AutoGenerateColumns" Value="False" />
+            <Setter Property="CanUserAddRows" Value="False" />
+            <Setter Property="CanUserDeleteRows" Value="False" />
+            <Setter Property="IsReadOnly" Value="True" />
+            <Setter Property="AlternatingRowBackground" Value="#80F2F2F2" />
+            <Setter Property="Background" Value="#80FFFFFF" />
+            <Setter Property="BorderBrush" Value="LightGray" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="FontFamily" Value="Comic Sans MS" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="RowHeaderWidth" Value="0" />
+            <Setter Property="ColumnHeaderStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="#E0E0E0" />
+                        <Setter Property="FontWeight" Value="SemiBold" />
+                        <Setter Property="BorderBrush" Value="LightGray" />
+                        <Setter Property="BorderThickness" Value="0,0,1,1" />
+                        <Setter Property="Padding" Value="5" />
+                        <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    </Style>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="CellStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="BorderBrush" Value="LightGray" />
+                        <Setter Property="BorderThickness" Value="0,0,1,1" />
+                        <Setter Property="Padding" Value="5" />
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        <Setter Property="TextBlock.TextAlignment" Value="Center" />
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
 
 

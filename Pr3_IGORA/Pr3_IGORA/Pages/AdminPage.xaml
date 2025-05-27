@@ -1,0 +1,153 @@
+﻿<Page x:Class="Pr3_IGORA.Pages.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pr3_IGORA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPage"
+      FontFamily="Comic Sans MS"
+      FontSize="14">
+
+    <Grid>
+
+        <TabControl Background="Transparent">
+            <TabItem Width="100"
+                     Header="Заказы">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="4*"/>
+                    </Grid.RowDefinitions>
+
+
+                    <DataGrid Grid.Row="1" 
+                              AutoGenerateColumns="False"
+                              Name="Dg_Orders"
+                              IsReadOnly="True"
+                              VerticalScrollBarVisibility="Auto"
+                              VerticalContentAlignment="Center">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" 
+                                                Binding="{Binding IDOrder}"
+                                                Width="0.3*"/>
+                            
+                            <DataGridTextColumn Header="Дата"
+                                                Binding="{Binding DateTime_Order}"
+                                                Width="*"/>
+                            
+                            <DataGridTextColumn Header="Длительность"
+                                                Binding="{Binding Time_Rent}"
+                                                Width="0.5*"/>
+
+                            <DataGridTextColumn Header="Клиент"
+                                                Binding="{Binding Client.Surname}"
+                                                Width="0.5*"/>
+
+                            <DataGridTextColumn Header="Кол-во"
+                                                Binding="{Binding Orders_Service.Count}"
+                                                Width="60"/>
+
+                            <DataGridTemplateColumn Header="Ифно"
+                                                    Width="0.5*">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Подробннее"
+                                                Name="DgBtn_Order_Info"
+                                                Click="DgBtn_Order_Info_Click"
+                                                CommandParameter="{Binding}"
+                                                Style="{StaticResource GreenButton}"
+                                                Width="100"
+                                                Height="30"
+                                                Margin="5"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                        </DataGrid.Columns>
+                        
+                        
+                    </DataGrid>
+                    
+                    
+                </Grid>
+                
+                
+            </TabItem>
+
+            
+            
+            
+            <TabItem Width="100"
+                     Header="Сотрудники">
+
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="4*"/>
+                    </Grid.RowDefinitions>
+
+
+                    <DataGrid Grid.Row="1" 
+              AutoGenerateColumns="False"
+              Name="Dg_Employes"
+              IsReadOnly="True"
+              VerticalScrollBarVisibility="Auto"
+              VerticalContentAlignment="Center">
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" 
+                                Binding="{Binding IDEmployee}"
+                                Width="0.2*"/>
+
+                            <DataGridTextColumn Header="Фамилия"
+                                Binding="{Binding Surname}"
+                                Width="0.5*"/>
+
+                            <DataGridTextColumn Header="Имя"
+                                Binding="{Binding Name}"
+                                Width="0.5*"/>
+
+                            <DataGridTextColumn Header="Должность"
+                                Binding="{Binding Post.Post1}"
+                                Width="0.7*"/>
+
+                            <DataGridTextColumn Header="Последний вход"
+                                                Binding="{Binding last_entry}"
+                                                Width="0.8*"/>
+
+                            <DataGridTemplateColumn Header="Инфо"
+                                    Width="0.7*">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Подробннее"
+                                Name="DgBtn_Employee_Info"
+                                Click="DgBtn_Employee_Info_Click"
+                                CommandParameter="{Binding}"
+                                Style="{StaticResource GreenButton}"
+                                Width="100"
+                                Height="30"
+                                Margin="5"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                        </DataGrid.Columns>
+
+
+                    </DataGrid>
+
+
+                </Grid>
+
+            </TabItem>
+            
+            
+        </TabControl>
+        
+    </Grid>
+</Page>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Valya\OneDrive\Рабочий стол\Учебная практика\repositories\Pr3\Pr3_IGORA\Pr3_IGORA\App.xaml
-2-1648024915
+3479286963
 2-1293242089
-23782282581
+23-2080636766
 181814406355
-MainWindow.xaml;Pages\LoginPage.xaml;
+MainWindow.xaml;Pages\AdminPage.xaml;Pages\LoginPage.xaml;
 
-False
+True
 

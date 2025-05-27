@@ -6,19 +6,14 @@
       xmlns:local="clr-namespace:Pr3_IGORA.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="LoginPage">
+      Title="LoginPage"
+      FontFamily="Comic Sans MS">
 
     <Grid>
 
 
 
-        <Image Source="/mountains.jpg"
-            Stretch="Fill"/>
-
-
-
-
-
+        
 
 
         <Border CornerRadius="20"
@@ -41,9 +36,11 @@
                    Margin="0,0,0,0">
 
                     <TextBlock
-                   Text="Лого тут"
-                   FontSize="24"
-                   Height="40"/>
+                        Text="Лого тут"
+                        FontSize="24"
+                        Height="40"
+                        Foreground="White"
+                        TextAlignment="Center"/>
                 </StackPanel>
 
                 <StackPanel HorizontalAlignment="Center"
@@ -70,9 +67,12 @@
                                  Name="TxbPassword"/>
 
                     <Button Style="{StaticResource GreenButton}"
-                         Content="Войти"
                          Name="BtnLogin"
-                         Click="BtnLogin_Click"/>
+                         Click="BtnLogin_Click">
+                        <TextBlock
+                            Text="Войти"
+                            TextAlignment="Center"/>
+                    </Button>
 
                 </StackPanel>
 

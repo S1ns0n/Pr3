@@ -19,21 +19,20 @@ namespace Pr3_IGORA
             PasswordBox innerPasswordBox = sender as PasswordBox;
             if (innerPasswordBox != null)
             {
-                // Получаем внешний PasswordBox через TemplatedParent
                 PasswordBox outerPasswordBox = innerPasswordBox.TemplatedParent as PasswordBox;
 
                 if (outerPasswordBox != null)
                 {
-                    //  ВНИМАНИЕ! Это ОЧЕНЬ ВАЖНО!
-                    //  Отписываемся от события, чтобы избежать рекурсии
                     innerPasswordBox.PasswordChanged -= PART_PasswordBox_PasswordChanged;
 
-                    outerPasswordBox.Password = innerPasswordBox.Password; // Обновляем внешний PasswordBox
-
-                    // Подписываемся обратно
+                    outerPasswordBox.Password = innerPasswordBox.Password;
                     innerPasswordBox.PasswordChanged += PART_PasswordBox_PasswordChanged;
                 }
             }
         }
+
+
+
+
     }
 }
