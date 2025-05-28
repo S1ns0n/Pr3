@@ -1,4 +1,5 @@
 ﻿using Pr3_IGORA.Classes;
+using Pr3_IGORA.Database;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -33,10 +34,32 @@ namespace Pr3_IGORA.Pages
 
         private void DgBtn_Employee_Info_Click(object sender, RoutedEventArgs e)
         {
-            
+            //FrameApp.frmObj.Navigate(new EmployeeInfoPage(sender as Button).DataContext Orders);
+
+            var employee = (sender as Button)?.DataContext as Employee;
+
+            if (employee == null)
+            {
+                MessageBox.Show("Не удалось получить данные заказа");
+                return;
+            }
+            FrameApp.frmObj.Navigate(new EmployeeInfoPage(employee));
         }
 
         private void DgBtn_Order_Info_Click(object sender, RoutedEventArgs e)
+        {
+            var order = (sender as Button)?.DataContext as Orders;
+
+            if (order == null)
+            {
+                MessageBox.Show("Не удалось получить данные заказа");
+                return;
+            }
+
+            FrameApp.frmObj.Navigate(new PageInfoOrders(order));
+        }
+
+        private void addemploye_Click(object sender, RoutedEventArgs e)
         {
 
         }

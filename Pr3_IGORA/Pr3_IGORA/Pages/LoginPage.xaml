@@ -73,13 +73,7 @@
                             Text="Войти"
                             TextAlignment="Center"/>
                     </Button>
-
                 </StackPanel>
-
-
-
-
-
             </Grid>
         </Border>
 

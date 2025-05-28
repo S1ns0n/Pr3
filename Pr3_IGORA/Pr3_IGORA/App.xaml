@@ -99,11 +99,10 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-
-
-
-
-
+        
+        
+        
+        
         <Style TargetType="PasswordBox">
             <Setter Property="Width" Value="200"/>
             <Setter Property="Height" Value="40"/>

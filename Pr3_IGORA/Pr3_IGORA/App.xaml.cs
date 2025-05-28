@@ -30,9 +30,5 @@ namespace Pr3_IGORA
                 }
             }
         }
-
-
-
-
     }
 }

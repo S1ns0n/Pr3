@@ -27,8 +27,7 @@ namespace Pr3_IGORA.Pages
         {
             InitializeComponent();
             TxbLogin.Focus();
-            
-
+           
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)

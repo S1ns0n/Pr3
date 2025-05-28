@@ -10,8 +10,6 @@
         WindowStartupLocation="CenterScreen">
     <Grid>
 
-        <Image Source="/mountains.jpg"
-            Stretch="Fill"/>
 
         <Frame Name="MainFrame"
                NavigationUIVisibility="Hidden"

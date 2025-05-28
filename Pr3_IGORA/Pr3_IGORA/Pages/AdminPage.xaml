@@ -9,9 +9,7 @@
       Title="AdminPage"
       FontFamily="Comic Sans MS"
       FontSize="14">
-
     <Grid>
-
         <TabControl Background="Transparent">
             <TabItem Width="100"
                      Header="Заказы">
@@ -21,6 +19,12 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="4*"/>
                     </Grid.RowDefinitions>
+
+                    <Button
+                        x:Name="addemploye"
+                        Click="addemploye_Click"
+                        Content="Добавить сотрудника"
+                        Style="{StaticResource GreenButton}"/>
 
 
                     <DataGrid Grid.Row="1" 
@@ -58,7 +62,7 @@
                                         <Button Content="Подробннее"
                                                 Name="DgBtn_Order_Info"
                                                 Click="DgBtn_Order_Info_Click"
-                                                CommandParameter="{Binding}"
+                                
                                                 Style="{StaticResource GreenButton}"
                                                 Width="100"
                                                 Height="30"
