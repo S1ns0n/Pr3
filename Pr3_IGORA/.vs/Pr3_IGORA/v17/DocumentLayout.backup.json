@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\employeeinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\employeeinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\infoorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\infoorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\addemployeepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\addemployeepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\addemployeepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\addemployeepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,48 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeInfoPage.xaml",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\EmployeeInfoPage.xaml",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\EmployeeInfoPage.xaml",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\EmployeeInfoPage.xaml",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\EmployeeInfoPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-29T04:42:17.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pages\\AddEmployeePage.xaml.cs",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\AddEmployeePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\AddEmployeePage.xaml.cs",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\AddEmployeePage.xaml.cs",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\AddEmployeePage.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAYwDgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T03:56:33.076Z",
+              "WhenOpened": "2025-05-29T04:57:40.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddEmployeePage.xaml",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\AddEmployeePage.xaml",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\AddEmployeePage.xaml",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\AddEmployeePage.xaml",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\AddEmployeePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-29T03:54:22.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InfoOrdersPage.xaml",
               "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\InfoOrdersPage.xaml",
               "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\InfoOrdersPage.xaml",
@@ -99,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\LoginPage.xaml",

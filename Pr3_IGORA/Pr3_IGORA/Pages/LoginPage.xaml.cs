@@ -41,7 +41,6 @@ namespace Pr3_IGORA.Pages
                     return;
                 }
                     
-
                 Trace.WriteLine($"My Login: {TxbLogin.Text}, My Password: {TxbPassword.Password}");
 
                 foreach (var user in allUsers)
@@ -49,6 +48,14 @@ namespace Pr3_IGORA.Pages
                     Trace.WriteLine($"Login: {user.Login}, Password: {user.Password}");
                     if((user.Login == TxbLogin.Text) && (user.Password == TxbPassword.Password))
                     {
+                        var efUser = ConnectBase.entObj.Employee.FirstOrDefault(x => x.Login == user.Login);
+                        
+                        if (efUser != null)
+                        {
+                            efUser.last_entry = DateTime.Now;
+                            ConnectBase.entObj.SaveChanges();
+                        }
+
                         switch (user.IDPost)
                         {
                             case 1:
@@ -57,6 +64,7 @@ namespace Pr3_IGORA.Pages
 
                             case 2:
                                 FrameApp.frmObj.Navigate(new AdminPage());
+
                                 break;
 
                             case 3:
@@ -79,6 +87,9 @@ namespace Pr3_IGORA.Pages
                 }
                 else
                 {
+                    userObj.last_entry = DateTime.Now;
+                    ConnectBase.entObj.SaveChanges();
+
                     switch (userObj.IDPost)
                     {
                         case 1:
