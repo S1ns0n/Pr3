@@ -59,7 +59,7 @@ namespace Pr3_IGORA.Pages
                         switch (user.IDPost)
                         {
                             case 1:
-                                
+                                FrameApp.frmObj.Navigate(new SellerPage());
                                 break;
 
                             case 2:
@@ -89,11 +89,13 @@ namespace Pr3_IGORA.Pages
                 {
                     userObj.last_entry = DateTime.Now;
                     ConnectBase.entObj.SaveChanges();
-
+                    Trace.WriteLine($"ID POST: {userObj.IDPost}");
                     switch (userObj.IDPost)
                     {
+                        
                         case 1:
-
+                            
+                            FrameApp.frmObj.Navigate(new SellerPage());
                             break;
 
                         case 2:

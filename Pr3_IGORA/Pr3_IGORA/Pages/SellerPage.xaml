@@ -1,0 +1,168 @@
+﻿<Page x:Class="Pr3_IGORA.Pages.SellerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pr3_IGORA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SellerPage">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel Orientation="Vertical"
+                        Grid.Column="0"
+                        Margin="5">
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="0 0 0 5">
+                    <TextBlock Width="100"
+                               Margin="0 0 10 0"
+                               Text="Фамилия:"/>
+                    <TextBox Width="200"
+                             Name="Txb_Surname"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="0 0 0 5">
+                    <TextBlock Width="100"
+                               Margin="0 0 10 0"
+                               Text="Имя:"/>
+                    <TextBox Width="200"
+                             Name="Txb_Name"/>
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="0 0 0 5">
+                    <TextBlock Width="100"
+                               Margin="0 0 10 0"
+                               Text="Отчество:"/>
+                    <TextBox Width="200"
+                             Name="Txb_Patronumic"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="0 0 0 5">
+                    <TextBlock Width="100"
+                               Margin="0 0 10 0"
+                               Text="Телефон:"/>
+                    <TextBox Width="200"
+                             Name="Txb_Phone"/>
+                </StackPanel>
+
+                <Button
+                    Height="20"
+                    Margin="30 5 30 5"
+                    Content="Проверка"
+                    Name="Btn_CheckUser"
+                    Click="Btn_CheckUser_Click"/>
+
+
+                <StackPanel Orientation="Horizontal"
+                            Margin="0 0 0 5">
+                    <TextBlock Width="100"
+                               Margin="0 0 10 0"
+                               Text="Время проката:"/>
+                    
+                    <ComboBox Width="200"
+                              Name="Cmb_TimeRent"/>
+
+                </StackPanel>
+
+
+                <TextBlock
+                    Text="Штрих-код:"/>
+
+                <Image
+                    Height="150"
+                    Name="Img_Barcode"
+                    Stretch="None"/>
+
+
+            </StackPanel>
+
+
+
+            <Grid Grid.Column="1">
+
+                <StackPanel Margin="5"
+                            Orientation="Vertical"
+                            VerticalAlignment="Top">
+
+
+                        <ComboBox Margin="0 10 0 10"
+                                  Name="Cmb_Services"
+                                  SelectionChanged="Cmb_Services_SelectionChanged"/>
+                        
+                        
+                        
+
+                  
+
+
+                    <StackPanel>
+                        <DataGrid Name="Dg_Services"
+                                  SelectionUnit="FullRow"
+                                  SelectionMode="Extended"
+                                  Height="200">
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID"
+                                                    Width="0.3*"
+                                                    Binding="{Binding ID}"/>
+                                <DataGridTextColumn Header="Услуга"
+                                                    Width="*"
+                                                    Binding="{Binding Name_Service}"/>
+                                <DataGridTextColumn Header="Цена за час"
+                                                    Width="*"
+                                                    Binding="{Binding Cost_On_Hour}"/>
+                            </DataGrid.Columns>
+                            
+                            
+                        </DataGrid>
+                    </StackPanel>
+
+                    <Button
+                        Height="20"
+                        Margin="0 5 0 0"
+                        Name="Btn_DeleteService"
+                        Click="Btn_DeleteService_Click"
+                        Content="Удалить"/>
+                    
+                    
+
+
+
+                </StackPanel>
+
+            </Grid>
+            
+            
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Button
+                Name="Btn_AddOrder"
+                Click="Btn_AddOrder_Click"
+                Content="Создать заказ"
+                Width="200"
+                Height="30"/>
+        </Grid>
+            
+        
+    </Grid>
+</Page>

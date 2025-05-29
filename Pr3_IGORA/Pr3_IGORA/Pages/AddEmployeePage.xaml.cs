@@ -47,13 +47,18 @@ namespace Pr3_IGORA.Pages
                 ConnectBase.entObj.SaveChanges();
                 MessageBox.Show("Пользователь" + employee.Surname + employee.Name + employee.Patronymic + " успешно добавлен!", "Уведомление",
                     MessageBoxButton.OK, MessageBoxImage.Information);
-                FrameApp.frmObj.GoBack();
+                FrameApp.frmObj.Navigate(new AdminPage());
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Ошибка добавления пользователя", "Уведомление" + ex.Message.ToString(),
                    MessageBoxButton.OK, MessageBoxImage.Warning);
             }
+        }
+
+        private void Btn_Back_Click(object sender, RoutedEventArgs e)
+        {
+            FrameApp.frmObj.Navigate(new AdminPage());   
         }
     }
 }

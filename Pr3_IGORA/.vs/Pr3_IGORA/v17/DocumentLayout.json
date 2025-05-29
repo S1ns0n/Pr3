@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\",
+  "WorkspaceRootPath": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|c:\\users\\opera\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\pr3\\pr3_igora\\pr3_igora\\pages\\sellerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\sellerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\infoorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\infoorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\sellerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\sellerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\pr3\\pr3_igora\\pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\pr3_igora\\database\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\database\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,50 +27,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\LoginPage.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T04:57:40.322Z",
-              "EditorCaption": ""
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Database\\Model1.edmx",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Database\\Model1.edmx",
+              "ToolTip": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Database\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Pr3_IGORA\\Database\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-29T09:30:30.48Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InfoOrdersPage.xaml",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\InfoOrdersPage.xaml",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\InfoOrdersPage.xaml",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\InfoOrdersPage.xaml",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\InfoOrdersPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-29T03:31:49.014Z",
-              "EditorCaption": ""
+              "Title": "Pages\\SellerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\SellerPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\SellerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\SellerPage.xaml.cs",
+              "RelativeToolTip": "Pr3_IGORA\\Pages\\SellerPage.xaml.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAwwNgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T08:21:17.328Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminPage.xaml",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\AdminPage.xaml",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\AdminPage.xaml",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\AdminPage.xaml",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\AdminPage.xaml",
+              "Title": "SellerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\SellerPage.xaml",
+              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\SellerPage.xaml",
+              "ToolTip": "C:\\Users\\opera\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\SellerPage.xaml",
+              "RelativeToolTip": "Pr3_IGORA\\Pages\\SellerPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-29T03:26:11.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "Pr3_IGORA\\Pages\\LoginPage.xaml",
-              "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\LoginPage.xaml",
-              "RelativeToolTip": "Pr3_IGORA\\Pages\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-29T03:16:11.625Z",
+              "WhenOpened": "2025-05-29T07:54:22.896Z",
               "EditorCaption": ""
             }
           ]
