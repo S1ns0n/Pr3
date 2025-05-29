@@ -5,19 +5,19 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="cd9363b8b3974295b9a85b2e771ae0ac" Name="Diagram1">
-        <EntityTypeShape EntityType="igoraModel.Client" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.Employee" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.Orders" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.Orders_Service" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.Post" Width="1.5" PointX="5.75" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.Service" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.Status" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="igoraModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
-        <AssociationConnector Association="igoraModel.FK_Orders_Client" ManuallyRouted="false" />
-        <AssociationConnector Association="igoraModel.FK_Employee_Post" ManuallyRouted="false" />
-        <AssociationConnector Association="igoraModel.FK_Orders_Service_Orders" ManuallyRouted="false" />
-        <AssociationConnector Association="igoraModel.FK_Orders_Status" ManuallyRouted="false" />
-        <AssociationConnector Association="igoraModel.FK_Orders_Service_Service" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="igoraModel.Client" Width="1.5" PointX="0.75" PointY="5.25" />
+        <EntityTypeShape EntityType="igoraModel.Employee" Width="1.5" PointX="8" PointY="5" />
+        <EntityTypeShape EntityType="igoraModel.Orders" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="igoraModel.Orders_Service" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="igoraModel.Post" Width="1.5" PointX="5.75" PointY="5.5" />
+        <EntityTypeShape EntityType="igoraModel.Service" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="igoraModel.Status" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="igoraModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" />
+        <AssociationConnector Association="igoraModel.FK_Orders_Client" />
+        <AssociationConnector Association="igoraModel.FK_Employee_Post" />
+        <AssociationConnector Association="igoraModel.FK_Orders_Service_Orders" />
+        <AssociationConnector Association="igoraModel.FK_Orders_Status" />
+        <AssociationConnector Association="igoraModel.FK_Orders_Service_Service" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

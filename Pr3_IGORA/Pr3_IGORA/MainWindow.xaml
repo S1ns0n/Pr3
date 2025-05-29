@@ -9,13 +9,8 @@
         MinHeight="500" MinWidth="500"
         WindowStartupLocation="CenterScreen">
     <Grid>
-
-
         <Frame Name="MainFrame"
-               NavigationUIVisibility="Hidden"
-               >
-            
+               NavigationUIVisibility="Hidden">
         </Frame>
-        
     </Grid>
 </Window>

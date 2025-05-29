@@ -10,81 +10,51 @@
       FontFamily="Comic Sans MS">
 
     <Grid>
+        <Border Name="Border"
+            Width="300"
+            Height="300"
+            CornerRadius="20"
+            Background="#E0FFFFFF"  
+            BorderBrush="#FFDDDDDD"
+            BorderThickness="1">
+            <Grid VerticalAlignment="Center"
+              HorizontalAlignment="Center"
+              Height="250"
+              Margin="0,20,0,0">
 
+                <TextBlock Text="Лого тут"
+                       FontSize="24"
+                       Height="40"
+                       Foreground="#FF333333"  
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top" />
 
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Width="200">
+                
+                <TextBlock Text="Логин:"
+                           Foreground="#FF333333"
+                           Margin="0,0,0,2" />
+                    <TextBox Name="TxbLogin"
+                         Margin="0,0,0,5" />
+                
+                    <TextBlock Text="Пароль:"
+                           Foreground="#FF333333"
+                           Margin="0,0,0,2" />
+                <PasswordBox Name="TxbPassword"
+                             Margin="0,0,0,20" />
 
-        
-
-
-        <Border CornerRadius="20"
-             Background="#95000000" 
-             Width="300"
-             Height="350"
-             Name="Border">
-            <Grid        
-             VerticalAlignment="Center"
-             HorizontalAlignment="Center"
-             Height="300"
-             Margin="0,20,0,0">
-
-
-
-
-
-                <StackPanel 
-                   VerticalAlignment="Top"
-                   Margin="0,0,0,0">
-
-                    <TextBlock
-                        Text="Лого тут"
-                        FontSize="24"
-                        Height="40"
+                <Button Name="BtnLogin"
+                        Click="BtnLogin_Click"
+                        Background="#FF4CAF50"  
                         Foreground="White"
-                        TextAlignment="Center"/>
-                </StackPanel>
-
-                <StackPanel HorizontalAlignment="Center"
-                         VerticalAlignment="Center"
-                         Margin="0,0,0,0">
-
-                    <TextBlock
-                     Text="Логин:"
-                     Margin="0,0,0,2"
-                     HorizontalAlignment="Left"
-                     TextAlignment="Left"
-                     Foreground="White"/>
-                    <TextBox Margin="0,0,0,5"
-                             Name="TxbLogin"/>
-
-
-                    <TextBlock
-                     Text="Пароль:"
-                     Margin="0,0,0,2"
-                     HorizontalAlignment="Left"
-                     TextAlignment="Left"
-                     Foreground="White"/>
-                    <PasswordBox Margin="0,0,0,20"
-                                 Name="TxbPassword"/>
-
-                    <Button Style="{StaticResource GreenButton}"
-                         Name="BtnLogin"
-                         Click="BtnLogin_Click">
-                        <TextBlock
-                            Text="Войти"
-                            TextAlignment="Center"/>
-                    </Button>
-                </StackPanel>
-            </Grid>
+                        Padding="10,5"
+                        HorizontalAlignment="Stretch">
+                    <TextBlock Text="Войти" />
+                </Button>
+            </StackPanel>
+        </Grid>
         </Border>
-
-
-
-
-
-
-
-
-
-
     </Grid>
 </Page>

@@ -61,7 +61,12 @@ namespace Pr3_IGORA.Pages
 
         private void addemploye_Click(object sender, RoutedEventArgs e)
         {
+            FrameApp.frmObj.Navigate(new AddEmployeePage());
+        }
 
+        private void Exitbtn_Click(object sender, RoutedEventArgs e)
+        {
+            FrameApp.frmObj.Navigate(new LoginPage());
         }
     }
 }

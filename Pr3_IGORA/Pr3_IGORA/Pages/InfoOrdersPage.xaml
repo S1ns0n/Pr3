@@ -6,84 +6,91 @@
       xmlns:local="clr-namespace:Pr3_IGORA.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PageInfoOrders">
+      Title="PageInfoOrders" FontFamily="Comic Sans MS" FontSize="14">
 
     <Grid>
-        <Grid>
+        <Grid Margin="10">
             <Grid.RowDefinitions>
-                <RowDefinition Height="1.5*"/>
-                <RowDefinition Height="4*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
+            <Grid Grid.Row="0"
+              Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
 
-            <StackPanel 
-                Orientation="Vertical" 
-                HorizontalAlignment="Left">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock 
-                        Width="100"
-                        Text="ФИО"/>
-                    <TextBox x:Name="txbFIO"
-                             Width="300"
+                <StackPanel Grid.Column="0"
+                        Orientation="Vertical">
+                    <Grid Margin="0,0,0,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="ФИО"
+                               VerticalAlignment="Center"/>
+                        <TextBox x:Name="txbFIO"
+                             Grid.Column="1"
                              IsEnabled="False"/>
-                </StackPanel>
+                    </Grid>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock 
-                        Width="100"
-                        Text="Длительность"/>
-                    <TextBox x:Name="txbDlitel"
+                    <Grid Margin="0,0,0,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Длительность"
+                               VerticalAlignment="Center"/>
+                        <TextBox x:Name="txbDlitel"
+                             Grid.Column="1"
                              IsEnabled="False"/>
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Штрих код"
+                               VerticalAlignment="Center"/>
+                        <TextBox x:Name="txbShrihcode"
+                             Grid.Column="1"
+                             IsEnabled="False"/>
+                    </Grid>
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock 
-                        Width="100"
-                        Text="Штрих код"/>
-                    <TextBox 
-                        x:Name="txbShrihcode"
-                        IsEnabled="False"/>
-                </StackPanel>
-            </StackPanel>
-
-
-                <Button
+                <Button Grid.Column="2"
+                    Content="Назад"
                     HorizontalAlignment="Right"
                     VerticalAlignment="Top"
-                    Margin="5"
                     Click="Button_Click"
-                    Content="Назад"
-                    Style="{StaticResource GreenButton}"/>
+                        Width="100"
+                    Margin="5"/>
+            </Grid>
 
-
-
-
-            <DataGrid Grid.Row="1" 
-                              AutoGenerateColumns="False"
-                              Name="Dg_Srvice"
-                              IsReadOnly="True"
-                              VerticalScrollBarVisibility="Auto"
-                              VerticalContentAlignment="Center">
+            <DataGrid Grid.Row="1"
+                  x:Name="Dg_Srvice"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  VerticalScrollBarVisibility="Auto">
 
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" 
-                                        Binding="{Binding IDService}"
-                                        Width="0.3*"/>
+                                    Binding="{Binding IDService}"
+                                    Width="0.3*"/>
 
-                    <DataGridTextColumn 
-                        Header="Услуга"
-                        Binding="{Binding Service.Name_Service}"
-                         Width="*"/>
+                    <DataGridTextColumn Header="Услуга"
+                                    Binding="{Binding Service.Name_Service}"
+                                    Width="*"/>
 
-                    <DataGridTextColumn 
-                        Header="Цена за час"
-                        Binding="{Binding Service.Cost_On_Hour}"
-                        Width="*"/>
-
+                    <DataGridTextColumn Header="Цена за час"
+                                    Binding="{Binding Service.Cost_On_Hour}"
+                                    Width="*"/>
                 </DataGrid.Columns>
             </DataGrid>
-
-
         </Grid>
     </Grid>
 </Page>

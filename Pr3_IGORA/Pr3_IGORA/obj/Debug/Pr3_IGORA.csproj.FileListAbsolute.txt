@@ -41,7 +41,6 @@ E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\App.g.cs
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA_Content.g.cs
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA_MarkupCompile.cache
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pr3_IGORA_MarkupCompile.lref
-E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\App.baml
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\MainWindow.baml
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\AdminPage.baml
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\LoginPage.baml
@@ -56,3 +55,5 @@ E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\EmployeeInfoPag
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\EmployeeInfoPage.baml
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\InfoOrdersPage.g.cs
 E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\InfoOrdersPage.baml
+E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\AddEmployeePage.g.cs
+E:\ДИСА\Repozitories\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\Pages\AddEmployeePage.baml

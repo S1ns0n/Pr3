@@ -31,7 +31,8 @@ namespace Pr3_IGORA.Pages
             FirstNameTextBox.Text = employee.Name;
             MiddleNameTextBox.Text = employee.Patronymic;
             PositionTextBox.Text = employee.Post.Post1;
-            LastLoginTextBox.Text = employee.Login;
+            LastLoginTextBox.Text = (employee.last_entry).ToString();
+            LoginTextBox.Text = employee.Login;
             PasswordTextBox.Text = employee.Password;
 
         }

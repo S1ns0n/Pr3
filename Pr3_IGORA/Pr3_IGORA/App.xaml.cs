@@ -14,21 +14,21 @@ namespace Pr3_IGORA
     /// </summary>
     public partial class App : Application
     {
-        private void PART_PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
-        {
-            PasswordBox innerPasswordBox = sender as PasswordBox;
-            if (innerPasswordBox != null)
-            {
-                PasswordBox outerPasswordBox = innerPasswordBox.TemplatedParent as PasswordBox;
+        //private void PART_PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        //{
+        //    PasswordBox innerPasswordBox = sender as PasswordBox;
+        //    if (innerPasswordBox != null)
+        //    {
+        //        PasswordBox outerPasswordBox = innerPasswordBox.TemplatedParent as PasswordBox;
 
-                if (outerPasswordBox != null)
-                {
-                    innerPasswordBox.PasswordChanged -= PART_PasswordBox_PasswordChanged;
+        //        if (outerPasswordBox != null)
+        //        {
+        //            innerPasswordBox.PasswordChanged -= PART_PasswordBox_PasswordChanged;
 
-                    outerPasswordBox.Password = innerPasswordBox.Password;
-                    innerPasswordBox.PasswordChanged += PART_PasswordBox_PasswordChanged;
-                }
-            }
-        }
+        //            outerPasswordBox.Password = innerPasswordBox.Password;
+        //            innerPasswordBox.PasswordChanged += PART_PasswordBox_PasswordChanged;
+        //        }
+        //    }
+        //}
     }
 }
