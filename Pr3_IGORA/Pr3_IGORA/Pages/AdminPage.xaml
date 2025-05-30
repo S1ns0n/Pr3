@@ -9,96 +9,145 @@
       Title="AdminPage"
       FontFamily="Comic Sans MS"
       FontSize="14">
-    <Grid>
+    <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
         <Button Content="Выйти"
-                x:Name="Exitbtn"
-                Click="Exitbtn_Click"
+            x:Name="Exitbtn"
+            Click="Exitbtn_Click"
             Width="100"
             Margin="5"
+            Background="Red"    
+            Foreground="White"
             HorizontalAlignment="Right"
             VerticalAlignment="Top"
             Grid.Row="0"/>
-        
-        <TabControl Grid.Row="1" Background="Transparent">
 
-            <TabItem Width="100" Header="Заказы">
-                <Grid Margin="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
+            <TabControl Grid.Row="1" Background="Transparent">
+                <!-- === Заказы === -->
+                <TabItem Width="100" Header="Заказы" Background="#FF76E383">
+                    <!-- дополнительный цвет -->
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
                     <DataGrid Grid.Row="1"
-                      x:Name="Dg_Orders"
-                      AutoGenerateColumns="False"
-                      IsReadOnly="True"
-                      VerticalScrollBarVisibility="Auto">
+                  x:Name="Dg_Orders"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  VerticalScrollBarVisibility="Auto"
+                  Background="White"
+                  AlternatingRowBackground="#FFF2FFF2"
+                  RowBackground="White"
+                  BorderBrush="#FFDDDDDD"
+                  BorderThickness="1"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="None"
+                  FontSize="14"
+                  Foreground="#FF333333">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#FFF0F0F0"/>
+                                <Setter Property="Foreground" Value="#FF333333"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                                <Setter Property="BorderBrush" Value="#FFDDDDDD"/>
+                                <Setter Property="Padding" Value="5,0"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="ID" Binding="{Binding IDOrder}" Width="0.3*"/>
-                            <DataGridTextColumn Header="Дата" Binding="{Binding DateTime_Order}" Width="*"/>
-                            <DataGridTextColumn Header="Длительность" Binding="{Binding Time_Rent}" Width="0.5*"/>
-                            <DataGridTextColumn Header="Клиент" Binding="{Binding Client.Surname}" Width="0.5*"/>
-                            <DataGridTextColumn Header="Кол-во" Binding="{Binding Orders_Service.Count}" Width="60"/>
-                            <DataGridTemplateColumn Header="Инфо" Width="0.5*">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <Button Content="Подробнее"
+                                <DataGridTextColumn Header="ID" Binding="{Binding IDOrder}" Width="0.3*"/>
+                                <DataGridTextColumn Header="Дата" Binding="{Binding DateTime_Order}" Width="*"/>
+                                <DataGridTextColumn Header="Длительность" Binding="{Binding Time_Rent}" Width="0.5*"/>
+                                <DataGridTextColumn Header="Клиент" Binding="{Binding Client.Surname}" Width="0.5*"/>
+                                <DataGridTextColumn Header="Кол-во" Binding="{Binding Orders_Service.Count}" Width="60"/>
+                                <DataGridTemplateColumn Header="Инфо" Width="0.5*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Подробнее"
                                             x:Name="DgBtn_Order_Info"
                                             Click="DgBtn_Order_Info_Click"
                                             Width="100"
-                                            Margin="5"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                        </DataGrid.Columns>
-                    </DataGrid>
-                </Grid>
-            </TabItem>
+                                            Margin="5"
+                                            Background="#FF498C51"
+                                            Foreground="White"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </TabItem>
 
-            <TabItem Width="100" Header="Сотрудники">
-                <Grid Margin="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
+                <!-- === Сотрудники === -->
+                <TabItem Width="100" Header="Сотрудники" Background="#FF76E383">
+                    <!-- дополнительный цвет -->
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
-                    <Button x:Name="addemploye"
+                        <Button x:Name="addemploye"
                         Content="Добавить сотрудника"
                         Click="addemploye_Click"
-                        Margin="0,0,0,10"/>
+                        Margin="0,0,0,10"
+                        Background="#FF498C51"
+                        Foreground="White"/>
 
-                    <DataGrid Grid.Row="1"
-                      x:Name="Dg_Employes"
-                      AutoGenerateColumns="False"
-                      IsReadOnly="True"
-                      VerticalScrollBarVisibility="Auto">
+                        <DataGrid Grid.Row="1"
+                          x:Name="Dg_Employes"
+                          AutoGenerateColumns="False"
+                            IsReadOnly="True"
+                            VerticalScrollBarVisibility="Auto"
+                            Background="White"
+                            AlternatingRowBackground="#FFF2FFF2"
+                            RowBackground="White"
+                            BorderBrush="#FFDDDDDD"
+                            BorderThickness="1"
+                            HeadersVisibility="Column"
+                            GridLinesVisibility="None"
+                            FontSize="14"
+                            Foreground="#FF333333">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#FFF0F0F0"/>
+                                <Setter Property="Foreground" Value="#FF333333"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                                <Setter Property="BorderBrush" Value="#FFDDDDDD"/>
+                                <Setter Property="Padding" Value="5,0"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="ID" Binding="{Binding IDEmployee}" Width="0.2*"/>
-                            <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}" Width="0.5*"/>
-                            <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="0.5*"/>
-                            <DataGridTextColumn Header="Должность" Binding="{Binding Post.Post1}" Width="0.7*"/>
-                            <DataGridTextColumn Header="Последний вход" Binding="{Binding last_entry}" Width="0.8*"/>
-                            <DataGridTemplateColumn Header="Инфо" Width="0.7*">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <Button Content="Подробнее"
+                                <DataGridTextColumn Header="ID" Binding="{Binding IDEmployee}" Width="0.2*"/>
+                                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}" Width="0.5*"/>
+                                <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="0.5*"/>
+                                <DataGridTextColumn Header="Должность" Binding="{Binding Post.Post1}" Width="0.7*"/>
+                                <DataGridTextColumn Header="Последний вход" Binding="{Binding last_entry}" Width="0.8*"/>
+                                <DataGridTemplateColumn Header="Инфо" Width="0.7*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Подробнее"
                                             x:Name="DgBtn_Employee_Info"
                                             Click="DgBtn_Employee_Info_Click"
                                             Width="100"
-                                            Margin="5"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                        </DataGrid.Columns>
-                    </DataGrid>
-                </Grid>
-            </TabItem>
-        </TabControl>
+                                            Margin="5"
+                                            Background="#FF498C51"
+                                            Foreground="White"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </TabItem>
+            </TabControl>
     </Grid>
 
 </Page>

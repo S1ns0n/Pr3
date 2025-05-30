@@ -11,19 +11,23 @@
     <StackPanel Margin="20"
             VerticalAlignment="Center"
             HorizontalAlignment="Center"
-            Width="400">
+            Width="400"
+            Background="White">
 
+        <!-- Повторяющаяся разметка для каждого поля -->
         <Grid Margin="0,5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="150"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Фамилия"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="LastNameTextBox"
                  Text="TextBox 1"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
@@ -33,11 +37,13 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Имя"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="FirstNameTextBox"
                  Text="TextBox 2"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
@@ -47,11 +53,13 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Отчество"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="MiddleNameTextBox"
                  Text="TextBox 3"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
@@ -61,11 +69,13 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Должность"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="PositionTextBox"
                  Text="TextBox 4"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
@@ -75,11 +85,13 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Последний вход"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="LastLoginTextBox"
                  Text="TextBox 5"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
@@ -89,11 +101,13 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Логин"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="LoginTextBox"
                  Text="TextBox 6"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
@@ -103,18 +117,23 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Пароль"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   Foreground="#FF333333"/>
             <TextBox x:Name="PasswordTextBox"
                  Text="TextBox 7"
                  IsEnabled="False"
                  FontSize="16"
+                 Background="#FF76E383"
                  Grid.Column="1"/>
         </Grid>
 
         <Button Content="Назад"
-         
             Margin="0,15,0,0"
             HorizontalAlignment="Stretch"
-            Click="Button_Click"/>
+            Click="Button_Click"
+            Background="Red"
+            Foreground="White"
+            Padding="10,5"/>
     </StackPanel>
+
 </Page>

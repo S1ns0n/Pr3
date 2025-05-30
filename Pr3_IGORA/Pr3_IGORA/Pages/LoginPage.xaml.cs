@@ -68,6 +68,7 @@ namespace Pr3_IGORA.Pages
                                 break;
 
                             case 3:
+                                FrameApp.frmObj.Navigate(new SwniorSallerPage());
                                 break;
                         }
                         return;
@@ -103,6 +104,7 @@ namespace Pr3_IGORA.Pages
                             break;
 
                         case 3:
+                            FrameApp.frmObj.Navigate(new SwniorSallerPage());
                             break;
                     }
                     return;

@@ -1,6 +1,4 @@
-﻿using Pr3_IGORA.Classes;
-using Pr3_IGORA.Database;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -17,16 +15,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Pr3_IGORA.Classes;
+using Pr3_IGORA.Database;
 using ZXing;
 
 namespace Pr3_IGORA.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для SellerPage.xaml
+    /// Логика взаимодействия для SwniorSallerPage.xaml
     /// </summary>
-    public partial class SellerPage : Page
+    public partial class SwniorSallerPage : Page
     {
-
         private object GetValue(object obj, string name)
         {
             return obj.GetType().GetProperty(name).GetValue(obj, null);
@@ -36,10 +35,10 @@ namespace Pr3_IGORA.Pages
         private BitmapImage GenerateBarcode(string barcodeContent)
         {
             BarcodeWriter barcodeWriter = new BarcodeWriter();
-            barcodeWriter.Format = BarcodeFormat.CODE_128; // Choose the format
-            barcodeWriter.Options.Width = 250; //Set width of the barcode
-            barcodeWriter.Options.Height = 80; //Set height of the barcode
-            barcodeWriter.Options.Margin = 0; //Set margin.
+            barcodeWriter.Format = BarcodeFormat.CODE_128;
+            barcodeWriter.Options.Width = 250;
+            barcodeWriter.Options.Height = 80;
+            barcodeWriter.Options.Margin = 0;
 
             Bitmap barcodeBitmap = null;
             try
@@ -63,11 +62,7 @@ namespace Pr3_IGORA.Pages
             }
             return bitmapImage;
         }
-
-
-
-
-            public SellerPage()
+        public SwniorSallerPage()
         {
             InitializeComponent();
 
@@ -85,14 +80,14 @@ namespace Pr3_IGORA.Pages
 
         private void Btn_CheckUser_Click(object sender, RoutedEventArgs e)
         {
-            
-            if(string.IsNullOrEmpty(Txb_Name.Text) || string.IsNullOrEmpty(Txb_Surname.Text) || string.IsNullOrEmpty(Txb_Patronumic.Text))
+
+            if (string.IsNullOrEmpty(Txb_Name.Text) || string.IsNullOrEmpty(Txb_Surname.Text) || string.IsNullOrEmpty(Txb_Patronumic.Text))
             {
                 MessageBox.Show("Заполните поля!");
                 return;
             }
 
-            var ClientObj = ConnectBase.entObj.Client.FirstOrDefault(x=> x.Name == Txb_Name.Text && x.Surname == Txb_Surname.Text && x.Patronymic == Txb_Patronumic.Text);
+            var ClientObj = ConnectBase.entObj.Client.FirstOrDefault(x => x.Name == Txb_Name.Text && x.Surname == Txb_Surname.Text && x.Patronymic == Txb_Patronumic.Text);
 
 
             if (ClientObj != null)
@@ -105,7 +100,7 @@ namespace Pr3_IGORA.Pages
             }
 
 
-           
+
         }
 
         private void Cmb_Services_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -115,9 +110,9 @@ namespace Pr3_IGORA.Pages
             Trace.WriteLine($"Услуга: {service}");
 
 
-            var serviceObj = ConnectBase.entObj.Service.Where(x=> x.ID == service).FirstOrDefault();
+            var serviceObj = ConnectBase.entObj.Service.Where(x => x.ID == service).FirstOrDefault();
 
-            
+
 
             Dg_Services.Items.Add(serviceObj);
 
@@ -201,9 +196,13 @@ namespace Pr3_IGORA.Pages
                     ConnectBase.entObj.SaveChanges();
 
                 }
+                
                 string barcode_text = order_id.ToString();
 
                 Img_Barcode.Source = GenerateBarcode(barcode_text);
+                MessageBox.Show("Заказ добавлен!");
+
+
             }
             catch (Exception ex)
             {
@@ -230,9 +229,32 @@ namespace Pr3_IGORA.Pages
             Img_Barcode.Source = null;
         }
 
-        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        private void CloseOrderBtn_Click(object sender, RoutedEventArgs e)
         {
-            FrameApp.frmObj.GoBack();
+            try
+            {
+                int code = Convert.ToInt32(TbxCode.Text);
+
+                var ordObj = ConnectBase.entObj.Orders.FirstOrDefault(x => x.IDOrder == code);
+
+                if (ordObj != null)
+                {
+                    ordObj.IDStatus = 3;
+                    ordObj.Date_CloseOrder = DateTime.Now;
+                    ConnectBase.entObj.SaveChanges();
+                    MessageBox.Show("Заказ закрыт!");
+                }
+                else
+                {
+                    MessageBox.Show("Заказ не найден!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при завершении заказа" + ex.Message.ToString());
+            }
+
+
         }
     }
 }

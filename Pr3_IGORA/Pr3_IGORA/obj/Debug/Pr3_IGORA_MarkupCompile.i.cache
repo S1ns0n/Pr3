@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\opera\OneDrive\Документы\GitHub\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\
+E:\ДИСА\Repozitories\1\Pr3\Pr3_IGORA\Pr3_IGORA\obj\Debug\
 Pr3_IGORA
 none
 false
 DEBUG;TRACE
-C:\Users\opera\OneDrive\Документы\GitHub\Pr3\Pr3_IGORA\Pr3_IGORA\App.xaml
-746406684
+E:\ДИСА\Repozitories\1\Pr3\Pr3_IGORA\Pr3_IGORA\App.xaml
+8-990428076
 2-1293242089
-27-1330950379
-21421457248
-MainWindow.xaml;Pages\AddEmployeePage.xaml;Pages\AdminPage.xaml;Pages\EmployeeInfoPage.xaml;Pages\LoginPage.xaml;Pages\InfoOrdersPage.xaml;Pages\SellerPage.xaml;
+2825309277
+21-1748779508
+MainWindow.xaml;Pages\AddEmployeePage.xaml;Pages\AdminPage.xaml;Pages\EmployeeInfoPage.xaml;Pages\LoginPage.xaml;Pages\InfoOrdersPage.xaml;Pages\SellerPage.xaml;Pages\SwniorSallerPage.xaml;
 
-True
+False
 

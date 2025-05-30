@@ -8,30 +8,28 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PageInfoOrders" FontFamily="Comic Sans MS" FontSize="14">
 
-    <Grid>
+    <Grid Background="White">
         <Grid Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0"
-              Margin="0,0,0,10">
+            <!-- Верхняя часть с текстовыми полями и кнопкой -->
+            <Grid Grid.Row="0" Margin="0,0,0,10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0"
-                        Orientation="Vertical">
+                <StackPanel Grid.Column="0" Orientation="Vertical">
                     <Grid Margin="0,0,0,5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="100"/>
                             <ColumnDefinition Width="300"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Text="ФИО"
-                               VerticalAlignment="Center"/>
+                        <TextBlock Text="ФИО" VerticalAlignment="Center"/>
                         <TextBox x:Name="txbFIO"
                              Grid.Column="1"
                              IsEnabled="False"/>
@@ -42,8 +40,7 @@
                             <ColumnDefinition Width="100"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Text="Длительность"
-                               VerticalAlignment="Center"/>
+                        <TextBlock Text="Длительность" VerticalAlignment="Center"/>
                         <TextBox x:Name="txbDlitel"
                              Grid.Column="1"
                              IsEnabled="False"/>
@@ -54,8 +51,7 @@
                             <ColumnDefinition Width="100"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Text="Штрих код"
-                               VerticalAlignment="Center"/>
+                        <TextBlock Text="Штрих код" VerticalAlignment="Center"/>
                         <TextBox x:Name="txbShrihcode"
                              Grid.Column="1"
                              IsEnabled="False"/>
@@ -66,31 +62,54 @@
                     Content="Назад"
                     HorizontalAlignment="Right"
                     VerticalAlignment="Top"
+                    Width="100"
+                    Margin="5"
                     Click="Button_Click"
-                        Width="100"
-                    Margin="5"/>
+                    Background="Red"
+                    Foreground="White"/>
             </Grid>
 
+            <!-- DataGrid с оформлением -->
             <DataGrid Grid.Row="1"
                   x:Name="Dg_Srvice"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
-                  VerticalScrollBarVisibility="Auto">
+                  VerticalScrollBarVisibility="Auto"
+                  Background="White"
+                  AlternatingRowBackground="#FFF2FFF2"
+                  RowBackground="White"
+                  BorderBrush="#FFDDDDDD"
+                  BorderThickness="1"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="None"
+                  FontSize="14"
+                  Foreground="#FF333333">
+
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="#FFF0F0F0"/>
+                        <Setter Property="Foreground" Value="#FF333333"/>
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                        <Setter Property="BorderBrush" Value="#FFDDDDDD"/>
+                        <Setter Property="Padding" Value="5,0"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
 
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" 
-                                    Binding="{Binding IDService}"
+                                    Binding="{Binding IDService}" 
                                     Width="0.3*"/>
-
-                    <DataGridTextColumn Header="Услуга"
-                                    Binding="{Binding Service.Name_Service}"
+                    <DataGridTextColumn Header="Услуга" 
+                                    Binding="{Binding Service.Name_Service}" 
                                     Width="*"/>
-
-                    <DataGridTextColumn Header="Цена за час"
-                                    Binding="{Binding Service.Cost_On_Hour}"
+                    <DataGridTextColumn Header="Цена за час" 
+                                    Binding="{Binding Service.Cost_On_Hour}" 
                                     Width="*"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>
     </Grid>
+
+
 </Page>

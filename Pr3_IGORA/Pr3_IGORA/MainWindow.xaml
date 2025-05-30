@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Игора" Height="550" Width="900"
         MinHeight="500" MinWidth="500"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Comic Sans MS">
     <Grid>
         <Frame Name="MainFrame"
                NavigationUIVisibility="Hidden">
