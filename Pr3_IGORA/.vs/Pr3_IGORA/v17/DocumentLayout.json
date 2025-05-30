@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\1\\pr3\\pr3_igora\\pr3_igora\\pages\\swniorsallerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\1\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\swniorsallerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\swniorsallerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|e:\\\u0434\u0438\u0441\u0430\\repozitories\\1\\pr3\\pr3_igora\\pr3_igora\\pages\\sellerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|E:\\\u0414\u0418\u0421\u0410\\Repozitories\\1\\Pr3\\Pr3_IGORA\\pr3_igora\\pages\\sellerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C0B42EE8-18D1-49BE-A68F-7CBDD7580B2D}|Pr3_IGORA\\Pr3_IGORA.csproj|solutionrelative:pr3_igora\\pages\\sellerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -33,8 +33,7 @@
               "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\1\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\SellerPage.xaml",
               "RelativeToolTip": "Pr3_IGORA\\Pages\\SellerPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T08:18:25.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T08:18:25.775Z"
             },
             {
               "$type": "Document",
@@ -45,8 +44,7 @@
               "ToolTip": "E:\\\u0414\u0418\u0421\u0410\\Repozitories\\1\\Pr3\\Pr3_IGORA\\Pr3_IGORA\\Pages\\SwniorSallerPage.xaml",
               "RelativeToolTip": "Pr3_IGORA\\Pages\\SwniorSallerPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-30T08:14:22.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T08:14:22.027Z"
             },
             {
               "$type": "Document",
